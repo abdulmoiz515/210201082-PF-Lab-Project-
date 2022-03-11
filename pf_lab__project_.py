@@ -40,10 +40,6 @@ print("Adjoint of matrix is ",list2)
 inverse=[[list2[0][0]/determinant, list2[0][1]/determinant],
                 [list2[1][0]/determinant, list2[1][1]/determinant]]
 print("The inverse of the matrix is ",inverse )
-for a in range(len(inverse)):
-    for b in inverse:
-        print(b[a], end ='  ')
-    print()
 
 #finding identity matrix
 matrix1=[(inverse[0][0]*list2[0][0])+(inverse[0][1]*list2[1][0])]
